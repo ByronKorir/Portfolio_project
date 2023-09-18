@@ -1,0 +1,91 @@
+body{
+   background-color: brown;
+    
+}
+/* navigation bar */
+#navigation{
+    
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: blanchedalmond;
+    text-decoration-color: rgb(81, 63, 63);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    background-color: rgb(40, 172, 201);
+    line-height: 20px;
+    
+        
+}
+  button{
+    
+    border-color: azure;
+    border-radius: 7px;
+    height: 35px;
+    width: 200px;
+  }
+  button:hover{
+    background-color: aqua;
+  }
+
+#landing{
+    /* margin: 5px 3%; */
+    margin-left: 10%;
+    margin-right: 10%;
+   
+    font-style:before ;
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+#landing p{
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+
+#landing img{
+height: 70vh;
+border-radius: 6%;
+border-style: ridge;
+border-color: green;
+}
+/*images*/
+#images{
+    height:60vh;
+    
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    
+}
+/* footer */
+#footer{
+    background-color: rgb(56, 20, 107);
+    text-align: center;
+    margin: 0%;
+    align-content: center;
+    /* display:flex;
+    flex-direction:row ; */
+
+}
+#footer a{
+    color: #c3d1c2;
+    
+}
+a:hover{
+    background-color: rgb(98, 98, 175);
+}
+#icons{
+    padding-left: 40%;
+    padding-right:40%;
+    display:flex;
+    justify-content: space-between;
+}
