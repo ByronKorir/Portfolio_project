@@ -1,0 +1,107 @@
+body{
+    text-align: center;
+    margin:0;
+    background-color: brown;
+}
+/* header */
+#logo{
+    display:flex;
+    align-items: center;
+    background-image:url(./images/1661932277902.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#logo img{
+    height:25px;
+}
+#navbar h1{
+    color: rgb(190, 137, 4);
+}
+#navbar{
+    position:sticky;
+    padding-left: 10%;
+    padding-right: 10%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(122, 188, 190);
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgb(242, 129, 165);
+}
+button:hover{
+    background-color: rgb(127, 127, 237);
+}
+#touch hr{
+    height: 2px;
+    border-color: black;
+    background-color: rgb(1, 1, 21);
+   
+}
+/* landing page */
+#landing{
+    display:flex;
+    justify-content: space-around;
+}
+#landing img{
+    width:300px
+}
+#input{
+    display:flex;
+    flex-direction: column;
+}
+#input button{
+    margin:5%;
+    background-color: green;
+}
+#input button:hover{
+    background-color: rgb(108, 84, 232);
+    cursor: pointer;
+}
+#input input {
+    margin:5%;
+}
+.landing{
+    display: flex;
+    align-items: center;
+    justify-items: start;
+       
+}
+#hr{
+    background-color: black;
+    border-color: black;
+}
+.landing i{
+    margin-right: 7%;
+    background-color: rgb(188, 78, 86);
+}
+#icons{
+    display:flex;
+    justify-content: space-around;
+    background-color: rgb(221, 96, 96);
+}
+/* footer */
+footer{
+    background-color: rgb(122, 188, 190);
+}
+footer hr{
+    background-color: rgb(5, 5, 31);
+    border-color: black;
+}
+footer img{
+    height:30px;
+}
+footer .logo{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 44%;
+    margin-right: 44%;
+    background: fixed;
+    background-image: url(./images/1661932277902.jpeg);
+    background-size: cover;
+    color:rgb(164, 118, 4);
+}
